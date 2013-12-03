@@ -169,8 +169,14 @@ a {
   display:table;
 }
 
+#content {
+  margin:0 auto;
+  display:table;
+}
+
 #side_left {
   float:left;
+  display:table-cell;
   width:191px;
   border: 1px solid;
   border-color:#4d6073;
@@ -178,17 +184,13 @@ a {
 
 #side_right {
   float:left;
-  width:716px;
+  display:table-cell;
+  width:718px;
   background-color:#384357;  
   border: 1px solid;
   border-color:#4d6073;
   border-bottom-right-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
-}
-
-#content {
-  margin:0 auto;
-  width:911px;
 }
 
 #postnear {
