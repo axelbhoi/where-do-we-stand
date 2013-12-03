@@ -5,13 +5,13 @@
 						<div class = "section1_first">
 							<img id="Image-Maps_1201312030628449" src="<?php echo base_url();?>img/top-btn.png" usemap="#Image-Maps_1201312030628449" border="0" width="380" height="41" alt="" />
 							<map id="_Image-Maps_1201312030628449" name="Image-Maps_1201312030628449">
-							<area shape="rect" coords="0,0,73,36" href="#" alt="sign-up" title="sign-up"    />
-							<area shape="rect" coords="74,0,136,36" href="#" alt="login" title="login"    />
+							<area shape="rect" coords="0,0,71,36" href="#signup" alt="signup" title="signup"    />
+							<area shape="rect" coords="72,0,137,36" href="#login" alt="login" title="login"    />
 							</map>
 						</div>	
 						<div  class = "section1_second">
 							<input id = "search_engine" type = "text"/>
-							<img id = "search_image" src = "<?php echo base_url();?>img/search1.png"/>
+							<a href = "#"><img id = "search_image" src = "<?php echo base_url();?>img/search1.png"/></a>
 						</div>	
 
 					</div>

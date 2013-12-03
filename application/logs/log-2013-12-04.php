@@ -133,3 +133,9 @@ ERROR - 2013-12-04 01:00:23 --> Severity: Notice  --> Undefined variable: title 
 ERROR - 2013-12-04 01:00:24 --> Severity: Notice  --> Undefined variable: title C:\xampp\htdocs\wheredowestand\application\views\templates\site-head.php 6
 ERROR - 2013-12-04 01:00:25 --> Severity: Notice  --> Undefined variable: title C:\xampp\htdocs\wheredowestand\application\views\templates\site-head.php 6
 ERROR - 2013-12-04 01:00:25 --> Severity: Notice  --> Undefined variable: title C:\xampp\htdocs\wheredowestand\application\views\templates\site-head.php 6
+ERROR - 2013-12-04 01:05:59 --> Severity: Notice  --> Undefined variable: title C:\xampp\htdocs\where-do-we-stand\application\views\templates\site-head.php 6
+ERROR - 2013-12-04 01:14:53 --> Severity: Notice  --> Undefined variable: title C:\xampp\htdocs\where-do-we-stand\application\views\templates\site-head.php 6
+ERROR - 2013-12-04 01:20:53 --> Severity: Notice  --> Undefined variable: title C:\xampp\htdocs\where-do-we-stand\application\views\templates\site-head.php 6
+ERROR - 2013-12-04 01:21:02 --> Severity: Notice  --> Undefined variable: title C:\xampp\htdocs\where-do-we-stand\application\views\templates\site-head.php 6
+ERROR - 2013-12-04 01:21:13 --> Severity: Notice  --> Undefined variable: title C:\xampp\htdocs\where-do-we-stand\application\views\templates\site-head.php 6
+ERROR - 2013-12-04 01:21:16 --> Severity: Notice  --> Undefined variable: title C:\xampp\htdocs\where-do-we-stand\application\views\templates\site-head.php 6
