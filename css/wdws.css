@@ -1,0 +1,259 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+  margin:0;
+  padding:0;
+}
+
+html,body{
+  margin:0;
+	padding:0;
+	height: 100%;
+}
+
+a {
+  text-decoration: none !important;  
+}
+
+/* Wrapper for page content to push down footer */
+      
+#wrap{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}   
+
+      
+/* Set the fixed height of the footer here */
+#push,
+#footer{
+  height: 60px;
+}
+      
+#footer {
+  background-color:none;
+}				
+		
+@font-face
+{
+  font-family: TitilliumWeb;
+	src: url(../css/fonts/TitilliumWeb-Regular.ttf);
+}	
+
+.section1 {
+  height:41px;
+  background:url(../img/stripes_pattern.png);
+}
+
+.section1_first {
+  z-index:1;
+}
+
+.section1_second {
+  z-index:2;margin-top:-42px;
+}
+
+#search_engine {
+  margin-left:208px;
+  font-family: TitilliumWeb;
+  color:#FFFFFF;
+  width:130px;
+  height:25px;
+  border: 1px solid #21242e;
+  border-radius:0.5em;
+  background: #212b33; /* Old browsers */
+  background: -moz-linear-gradient(top, #212b33 0%, #404e61 67%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#212b33), color-stop(67%,#404e61)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #212b33 0%,#404e61 67%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #212b33 0%,#404e61 67%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #212b33 0%,#404e61 67%); /* IE10+ */
+  background: linear-gradient(to bottom, #212b33 0%,#404e61 67%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212b33', endColorstr='#404e61',GradientType=0 ); /* IE6-9 */  
+}
+
+#search_image {
+  vertical-align:top;
+  height:25px;  
+}
+
+.mainsection1 {
+  margin:0 auto;
+  width:911px;  
+}
+
+.section1_navigations {
+  float:right;
+  width:380px;
+  height:41px;
+  background:url(../img/top-btn.png);  
+}
+
+
+.section2 {
+  height:335px;
+  background:url(../img/square_pattern.jpg);
+}
+
+.mainsection2 {
+  margin:0 auto;
+  width:911px;
+  height:184px;
+}
+
+.logo {
+  width:496px;
+  height:184px;
+  float:left;
+  background:url(../img/logo.png);
+  margin-top:67px;  
+}
+
+.sidelogo {
+  width:388px;
+  height:184px;
+  float:right;
+  margin-top:67px; 
+}
+
+.side_description {
+  font-size:12px;
+  font-family:TitilliumWeb;
+  height:95px;  
+}
+
+.side_links {
+  font-size:14px;
+  font-family:TitilliumWeb;
+  text-align:center;
+  margin-top:1%;
+  margin-bottom:1%;
+  height:20px;  
+}
+
+.section3 {
+  height:43px;
+  background:url(../img/stripes_pattern.png);  
+}
+
+.mainsection3 {
+  margin:0 auto;
+  width:911px;height:43px;  
+}
+
+#Image-Maps_8201312021022445 {
+  border:1px solid;
+  border-top-left-radius:0.3em;
+  border-top-right-radius:0.3em;
+  border-color:#d4d2d3;
+  border-bottom:#d4d2d3;  
+}
+
+.side_one {
+  display:table;
+  height:38px;
+  width:192px;
+  border: 1px solid;
+  border-color:#4d6073;
+  background:url(../img/sidebar_button.png);  
+}
+
+
+#post_near {
+  height:55px;
+  width:192px;
+  border: 2px solid;
+  border-color:#4d6073;
+  background:url(../img/post_near.png);     
+  border-top: none;
+  border-left: none;
+  display:table;
+}
+
+#side_left {
+  float:left;
+  width:191px;
+  border: 1px solid;
+  border-color:#4d6073;
+}
+
+#side_right {
+  float:left;
+  width:716px;
+  background-color:#384357;  
+  border: 1px solid;
+  border-color:#4d6073;
+  border-bottom-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+#content {
+  margin:0 auto;
+  width:911px;
+}
+
+#postnear {
+  text-shadow: 1px -1px 1px #000000;
+  text-align:center;
+  font-family:TitilliumWeb;
+  font-size:14px;
+  color:#a4adbd;
+  margin-top:8px;  
+}
+
+#postcountry {
+  text-shadow: 1px -1px 1px #000000;
+  text-align:center;
+  font-famuly:TitilliumWeb;
+  font-size:10px;
+  color:#a4adbd;
+}
+
+#posthead {
+  display:table;
+  background-color:#526380;
+  width:695px;
+  height:42px;
+  margin-left:10px;
+  margin-top:10px;
+  border:1px solid #6d80a6;
+  border-radius:0.5em;  
+}
+
+#postheadcountry {
+  text-shadow: 2px 1px 1px #7d92bd;
+  color:#1b2126;
+  padding-left:10px;
+  font-family:TitilliumWeb;
+  font-size:16px;
+  display:table-cell;
+  vertical-align:middle;  
+}
+
+.category {
+  text-shadow: 1px -1px 1px #000000;
+  font-family:TitilliumWeb;
+  font-size:12px;
+  color:#a4adbd;
+}
+
+.inner_side_one {
+  display:table-cell;
+  vertical-align:middle;
+  padding-left:5px;
+}
+
+.vertical_line {
+  float:left;
+  border-right: thin solid #333e4f;
+  height:107px; 
+  margin-top:18px;
+  box-shadow: 1px 0px -0px #000000;
+}
+
+.desktop-view{
+  text-shadow: 0px -1px 0px #000000;
+  color:#323b4d;
+  font-family:TitilliumWeb;
+  font-size:14px;
+  margin-left:46px;
+}
